@@ -46,16 +46,16 @@ export const Header: React.FC<HeaderProps> = (
                         onClick={() => {
                             router.back()
                         }}
-                        className="
-                        rounded-full
-                        bg-black
-                        flex
-                        items-center
-                        justify-center
-                        cursor-pointer
-                        hover:opacity-75
-                        transition
-                    ">
+                        className={`
+                            rounded-full
+                            bg-black
+                            flex
+                            items-center
+                            justify-center
+                            cursor-pointer
+                            hover:opacity-75
+                            transition
+                        `}>
                         <RxCaretLeft size={35}
                                      className="text-white"
                         />

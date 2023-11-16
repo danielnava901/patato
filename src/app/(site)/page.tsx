@@ -10,7 +10,7 @@ export default function Home() {
             overflow-y-auto
             rounded-lg
         ">
-            <Header>
+            <Header className="">
                 Header
             </Header>
         </main>
